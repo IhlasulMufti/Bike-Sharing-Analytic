@@ -101,7 +101,7 @@ def create_customer_byWeather(df):
 
     return count_customer_byWeather_df
 
-main_df = pd.read_csv('main_data.csv')
+main_df = pd.read_csv('https://raw.githubusercontent.com/IhlasulMufti/Bike-Sharing-Analytic/main/dashboard/main_data.csv')
 
 main_df['dteday'] = pd.to_datetime(main_df['dteday'])
 
